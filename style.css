@@ -1,6 +1,65 @@
 @import url(reset.css);
+@import url(border.css);
 
 html {
     font-family: 'Lato', sans-serif;
     font-size: 62.5%;
+    background: #fff;
 }
+
+body {
+    width: 95vw;
+    height: 100vh;
+}
+
+.site-nav {
+    background: #2b2a2a;
+    padding: 1.8rem;
+    position: fixed;
+    width: 98vw;
+    display: inline-block;
+    margin: 1.5rem auto;
+    text-align: right;
+}
+
+.site-nav_link {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+}
+
+.site-nav a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.bg {
+    background: url("https://images6.alphacoders.com/549/549198.jpg") fixed no-repeat;
+    background-size: cover;
+    background-position: 0 5.5rem;
+    margin: 8.5rem auto 1rem;
+    height: 30rem;
+    width: 100vw;
+    display: inline-block;
+}
+
+/* Still needs styling */
+.lead-banner  img{
+    width: 100%;
+    height: 300px;
+}
+
+.current {
+    background: #8f746c;
+    border-radius: .4rem;
+}
+
+.shop-section {
+    text-align: center;
+}
+
+.shop-section_product-image {
+    width: 50%;
+}
+
