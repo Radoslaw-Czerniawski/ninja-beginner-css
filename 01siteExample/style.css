@@ -1,0 +1,102 @@
+@import url(reset.css);
+@import url(border.css);
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+    background: #fff;
+}
+
+.site-nav {
+    background: #2b2a2a;
+    padding: 1.8rem;
+    margin-top: 1.5rem;
+    position: fixed;
+    width: 98vw;
+    display: inline-block;
+    text-align: right;
+}
+
+.current {
+    background: #8f746c;
+    border-radius: .6rem;
+}
+
+.site-nav_link {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+}
+
+.site-nav a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.bg {
+    background: url("https://images6.alphacoders.com/549/549198.jpg") fixed no-repeat;
+    background-size: cover;
+    background-position: 0 8rem;
+    margin: 8.5rem auto 1rem;
+    height: 20rem;
+    width: 100vw;
+    display: inline-block;
+}
+
+.shop-section {
+    text-align: center;
+    padding: 0 0 2rem;
+}
+
+.shop-section_product-image {
+    padding: 1.5rem;
+    border-radius: 10rem;
+    width: 40%;
+}
+
+.shop-section_product-name {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.shop-section_product-price {
+    display: block;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.shop-section_product-add {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8f746c;
+    width: 21rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    border: .2rem solid #8f746c;
+}
+
+.shop-section_product-add:hover {
+    color: #fff;
+    background-color: #8f746c;
+}
+
+.fa {
+    font-size: 2rem;
+}
+
+.site-footer {
+    background: url("https://www.mottolino.com/app/uploads/2019/07/Header-Home_4.jpg") no-repeat;
+    background-size: cover;
+    background-position: -1.5rem -11rem;
+    height: 30rem;
+    width: 100vw;
+    display: inline-block;
+    border-top: 1rem solid #8f746c;
+    text-align: center;
+}
+
+
+
+
