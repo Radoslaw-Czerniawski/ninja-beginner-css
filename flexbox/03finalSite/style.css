@@ -93,6 +93,12 @@ article h2 {
 
 @media screen and (min-width: 768px) {
 
+    .nav-bar {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .nav-bar_links,
     .nav-bar_links-social {
         display: flex;
@@ -102,19 +108,8 @@ article h2 {
         flex: 1 1 0;
     }
 
-    .nav-bar {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .nav-bar_links-social {
-        justify-content: end;
-        max-width: 2rem;
-    }
-
-    .nav-bar_links-social a {
-        width: auto;
-        justify-content: auto;
+        flex-grow: 0;
     }
 
     .article-section {
