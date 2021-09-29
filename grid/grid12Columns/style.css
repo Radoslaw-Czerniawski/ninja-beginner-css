@@ -1,0 +1,85 @@
+/* Initial Styling */
+:root{font-size: 62.5%;}
+
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 1rem 1rem;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.content > *{
+    background: #3bbced;
+    padding: 3rem;
+}
+
+/* Styling */
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(10rem, auto);
+    grid-gap: 1rem;
+    position: relative;
+}
+
+header {
+    grid-column: 1 / 13;
+}
+
+main {
+    grid-column: 4 / 13;
+    grid-row: 2 / 4;
+}
+
+aside {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+}
+
+section {
+    grid-column: 1 / 13;
+    grid-row: 4 / 6;
+}
+
+nav {
+    grid-column: 1 / 4;
+}
+
+footer {
+    grid-column: 1 / 13;
+}
+
+.grid {
+    position: absolute;
+    display: none;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100%, auto);
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.grid p {
+    border: .1rem solid;
+    background: #000;
+    margin: 0;
+    opacity: .2;
+    grid-gap: 1rem;
+}
+
+input:checked + .content .grid {
+    display: grid;
+}
